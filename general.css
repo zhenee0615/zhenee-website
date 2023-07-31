@@ -1,0 +1,15 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* THIS IS A COMMENT FOR CSS*/
+
+body {
+  font-family: Roboto, Arial;
+  margin: 0;
+  margin-left: 20px;
+  padding-top: 80px;
+  padding-right: 24px;
+  background-color: rgb(247, 247, 247);
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<hmtl>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>
+      YouTube
+    </title>
+    <link rel="stylesheet" href = "general.css">
+    <link rel="stylesheet" href = "header.css">
+    <link rel="stylesheet" href = "video.css">
+    <link rel="stylesheet" href = "sidebar.css">
+  </head>
+  <body style = "padding-top: 80px;
+  padding-left: 80px;">
+    <header class = "Header">
+      <div class="LeftSection">
+        <img class = "HamburgerMenu" src = "icon/hamburger-menu.svg">
+        <img class = "YoutubeLogo" src ="icon/youtube-logo.svg">
+      </div>
+      <div class="MiddleSection">
+        <input class = "SearchBar" type = "text" placeholder = "Search">
+        <button class = "SearchButton">
+          <img class = "SearchIcon" src = "icon/search.svg">
+          <div class = "Tooltip">Search</div>
+        </button>
+        <button class = "VoiceSearchButton">
+          <img class = "VoiceSearchIcon" src = "icon/voice-search-icon.svg">
+          <div class = "Tooltip">Search With Your Voice</div>
+        </button>
+      </div>
+      <div class="RightSection">
+        <div class = "UploadButton">
+          <img class = "UploadIcon" src = "icon/upload.svg">
+          <div class = "Tooltip">Create</div>
+        </div>
+        <div class = "YoutubeAppButton">
+          <img class = "YoutubeAppIcon" src = "icon/youtube-apps.svg">
+          <div class = "Tooltip">YouTube Apps</div>
+        </div>
+        <!-- PUT ABSOLUTE INSIDE RELATIVE!!!
+             THIS IS COMMENT FOR HTML-->
+        <div class = "Notification" style = "position: relative;">
+          <img class = "NotificationIcon" src = "icon/notifications.svg">
+          <div class = "NotificationNum">
+            3
+          </div>
+          <div class = "Tooltip">Notfication</div>
+        </div>
+        <img class = "CurrentUserPicture" src = "icon/my-channel.jpeg">
+      </div>
+    </header>
+
+    <nav class = "Sidebar">
+      <div class = SidebarLink>
+        <img src= "icon/home.svg">
+        <div>
+          Home
+        </div>
+      </div>
+      <div class = SidebarLink>
+        <img src= "icon/explore.svg">
+        <div>
+          Explore
+        </div>
+      </div>
+      <div class = SidebarLink>
+        <img src= "icon/subscriptions.svg">
+        <div>
+          Subscription
+        </div>
+      </div>
+      <div class = SidebarLink>
+        <img src= "icon/originals.svg">
+        <div>
+          Originals
+        </div>
+      </div>
+      <div class = SidebarLink>
+        <img src= "icon/youtube-music.svg">
+        <div>
+          YouTube Music
+        </div>
+      </div>
+      <div class = SidebarLink>
+        <img src= "icon/library.svg">
+        <div>
+          Library
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class = "VideoGrid">
+        <div class = "VideoPreview">
+          <div class = "Image1Row">
+            <img class = "image1" src = "image/thumbnail-1.webp">
+            <div class = "video-time">
+              14:20
+            </div>
+          </div>
+          
+          <div class = "VideoInfoGrid">
+            <div class = "Image">
+              <img class = "ImageAuthor" src = "image/channel-1.jpeg">
+            </div>
+    
+            <div class = "Details">
+              <p class = "VideoTitle">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+        
+              <p class = "VideoAuthor">
+                Marques Brownlee
+              </p>
+        
+              <p class = "VideoStats">
+                3.4M views &centerdot; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class = "VideoPreview">
+          <div class = "Image1Row">
+            <img class = "image1" src = "image/thumbnail-2.webp">
+            <div class = "video-time">
+              8:22
+            </div>
+          </div>
+          
+          <div class = "VideoInfoGrid">
+            <div class = "Image">
+              <img class = "ImageAuthor" src = "image/channel-2.jpeg">
+            </div>
+    
+            <div class = "Details">
+              <p class = "VideoTitle">
+                Try Not To Laugh Challenge #9
+              </p>
+        
+              <p class = "VideoAuthor">
+                Markiplier
+              </p>
+        
+              <p class = "VideoStats">
+                19M views &centerdot; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class = "VideoPreview">
+          <div class = "Image1Row">
+            <img class = "image1" src = "image/thumbnail-3.webp">
+            <div class = "video-time">
+              9:13
+            </div>
+          </div>
+          
+          <div class = "VideoInfoGrid">
+            <div class = "Image">
+              <img class = "ImageAuthor" src = "image/channel-3.jpeg">
+            </div>
+    
+            <div class = "Details">
+              <p class = "VideoTitle">
+                Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+        
+              <p class = "VideoAuthor">
+                SSSniperWolf
+              </p>
+        
+              <p class = "VideoStats">
+                12M views &centerdot; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class = "VideoPreview">
+          <div class = "Image1Row">
+            <img class = "image1" src = "image/thumbnail-4.webp">
+            <div class = "video-time">
+              22:09
+            </div>
+          </div>
+          
+          <div class = "VideoInfoGrid">
+            <div class = "Image">
+              <img class = "ImageAuthor" src = "image/channel-4.jpeg">
+            </div>
+    
+            <div class = "Details">
+              <p class = "VideoTitle">
+                The Simplest Math Problem No One Can Solve - Collatz Conjecture
+              </p>
+        
+              <p class = "VideoAuthor">
+                Veritasium
+              </p>
+        
+              <p class = "VideoStats">
+                18M views &centerdot; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class = "VideoPreview">
+          <div class = "Image1Row">
+            <img class = "image1" src = "image/thumbnail-5.webp">
+            <div class = "video-time">
+              11:17
+            </div>
+          </div>
+          
+          <div class = "VideoInfoGrid">
+            <div class = "Image">
+              <img class = "ImageAuthor" src = "image/channel-5.jpeg">
+            </div>
+    
+            <div class = "Details">
+              <p class = "VideoTitle">
+                Kadane's Algorithm to Maximum Sum Subarray Problem
+              </p>
+        
+              <p class = "VideoAuthor">
+                CS Dojo
+              </p>
+        
+              <p class = "VideoStats">
+                518K views &centerdot; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class = "VideoPreview">
+          <div class = "Image1Row">
+            <img class = "image1" src = "image/thumbnail-6.webp">
+            <div class = "video-time">
+              19:59
+            </div>
+          </div>
+          
+          <div class = "VideoInfoGrid">
+            <div class = "Image">
+              <img class = "ImageAuthor" src = "image/channel-6.jpeg">
+            </div>
+    
+            <div class = "Details">
+              <p class = "VideoTitle">
+                Anything You Can Fit In The Circle I'll Pay For
+              </p>
+        
+              <p class = "VideoAuthor">
+                MrBeast
+              </p>
+        
+              <p class = "VideoStats">
+                141M views &centerdot; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</hmtl>

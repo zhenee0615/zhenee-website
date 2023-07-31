@@ -1,0 +1,153 @@
+.SearchBar {
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+}
+
+.SearchBar::placeholder {
+  font-size: 16px;
+
+}
+
+.Header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(226, 226, 226);
+  z-index: 2;
+}
+
+.LeftSection {
+  align-items: center;
+  display: flex;
+}
+
+.MiddleSection {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  align-items: center;
+  display: flex;
+}
+
+.RightSection {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.HamburgerMenu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 20px;
+}
+
+.YoutubeLogo {
+  height: 20px;
+}
+
+.SearchButton {
+  height: 40px;
+  width: 66px;
+  background-color: rgb(240, 240, 240);
+  border-width: 1px;
+  border-color: rgb(226, 226, 226);
+  border-style: solid;
+  margin-left: -1px;
+  margin-right: 10px;
+}
+
+.SearchButton, 
+.VoiceSearchButton,
+.UploadButton,
+.YoutubeAppButton,
+.Notification {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  cursor: pointer;
+}
+
+.SearchButton .Tooltip,
+.VoiceSearchButton .Tooltip,
+.UploadButton .Tooltip,
+.YoutubeAppButton .Tooltip,
+.Notification .Tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.SearchButton:hover .Tooltip,
+.VoiceSearchButton:hover .Tooltip,
+.UploadButton:hover .Tooltip,
+.YoutubeAppButton:hover .Tooltip,
+.Notification:hover .Tooltip {
+  opacity: 1;
+}
+
+.VoiceSearchButton {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(238, 238, 238);
+}
+
+.SearchIcon {
+  height: 25px;
+  margin-top: 4px;
+}
+
+.VoiceSearchIcon {
+  width: 24px;
+}
+
+.UploadIcon {
+  height: 24px;
+}
+
+.YoutubeAppIcon {
+  height: 24px;
+}
+
+.NotificationIcon {
+  height: 24px;
+}
+
+.CurrentUserPicture {
+  height: 32px;
+  border-radius: 16px;
+}
+
+.CurrentUserPicture:hover {
+  cursor: pointer;
+}
